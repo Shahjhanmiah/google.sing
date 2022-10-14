@@ -1,0 +1,25 @@
+/*
+<!--  initial setup -->
+1. visit:console.firebase.goole.com
+2.create a new firebase project
+3. Visite  doc (go to docs) Build> Authentication >web >Getting started
+4. Register  web app>firebase project home>click web>give name and register
+5. Install firebase for your project: npm install firebase 
+6. Dangerous: get firebase config and put it in firebase.init.js
+7. exporte app from firebase .init .js
+<!-- --------- setup  provider -->
+8. create auth using getauth from firebase by using app from firebase .init.js
+
+9. create a google provider
+10. go to firebase >Build > Authencation Sing in method
+11. Enable google sinn in method
+12. create  a button for google singn in method with a click handler
+13. inside the event handler ,call singIWithPopup with auth, provider
+14. after singIWithPopup .then result,error
+<!--  display data -->
+15. add a new sign in method
+1. enable  the singn in method
+2. create github , twitter,fb,ect.app create 
+
+
+*/
